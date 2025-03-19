@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('/images/image\ 1.png');
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-home-page {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.image-home-page {
+    border-radius: 16px;
+    width: 1200px;
+    height: 500px;
+    background-image: url('/images/Pexels\ Photo\ by\ Cody\ King.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navigation-menu {
+    width: 800px;
+}
+
+.header-logo img {
+    width: 60px;
+    height: 60px;
+}
