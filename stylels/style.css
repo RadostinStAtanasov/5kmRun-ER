@@ -13,6 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
+    /* border: 1px red solid; */
 }
 
 .container-home-page {
@@ -69,7 +70,20 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    height: 191x;
+    margin-bottom: 81px;
+}
+
+.left-blur-text div:nth-child(3){
+    margin-left: 75px;
+}
+
+.left-blur-text div:nth-child(1){
+    margin-left: 9px;
+}
+
+.right-text div:nth-child(2) {
+    /* margin-bottom: 13px; */
 }
 
 .middle-text {
