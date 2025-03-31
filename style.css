@@ -3,6 +3,8 @@ body {
     url('/Pexels\ Photo\ by\ Cody\ King.jpg');
     background-size: cover;
     margin: 0;
+    background-repeat: no-repeat;
+    height: 1000px;
 
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -139,4 +141,9 @@ ul {
 .header-logo img {
     width: 60px;
     height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
 }
