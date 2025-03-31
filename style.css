@@ -4,7 +4,7 @@ body {
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1500px;
 
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -15,7 +15,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    /* border: 1px red solid; */
+    background-color: rgba(0, 0, 0, 0.651);
 }
 
 .container-home-page {
@@ -23,6 +23,7 @@ header {
     justify-content: center;
     align-content: center;
     color: white;
+    margin-bottom: 100px;
 }
 
 .image-home-page {
@@ -124,13 +125,17 @@ header {
     margin-left: 20px;
 }
 
+
 ul {
     list-style: none;
+    height: 64px;
+    margin: 0;
 }
 
 .navigation-menu ul {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-around; */
     padding: 0;
 }
 
@@ -140,10 +145,30 @@ ul {
 
 .header-logo img {
     width: 60px;
-    height: 60px;
+    height: 48px;
 }
 
 a {
     text-decoration: none;
-    color:black;
+    color:#B5B5B5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 133px;
+}
+
+a:hover {
+
+    background-color: rgba(255, 166, 0, 0.705);
+}
+
+#video-monument {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+iframe {
+    border: none;
+    /* border-radius: 8px; */
 }
