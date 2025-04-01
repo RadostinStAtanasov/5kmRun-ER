@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-    url('/Pexels\ Photo\ by\ Cody\ King.jpg');
+    url('Pexels\ Photo\ by\ Cody\ King.jpg');
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ header {
     border-radius: 16px;
     width: 1200px;
     height: 500px;
-    background-image: url('/Pexels\ Photo\ by\ Cody\ King.jpg');
+    background-image: url('Pexels\ Photo\ by\ Cody\ King.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 50px;
@@ -155,7 +155,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 48px;
-    width: 133px;
+    width: 135px;
 }
 
 a:hover {
