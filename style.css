@@ -4,7 +4,7 @@ body {
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
-    height: 1500px;
+    height: 2000px;
 
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -16,6 +16,11 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.651);
+    /* background-image: url('HEAD\ dark\ 02.png');
+    background-size: 100% 100%;
+    width: 1950px;
+    height: 50px;
+    background-repeat: no-repeat; */
 }
 
 .container-home-page {
@@ -77,16 +82,14 @@ header {
     margin-bottom: 81px;
 }
 
-.left-blur-text div:nth-child(3){
-    margin-left: 75px;
-}
-
 .left-blur-text div:nth-child(1){
-    margin-left: 9px;
+    margin-left: 150px;
 }
-
-.right-text div:nth-child(2) {
-    /* margin-bottom: 13px; */
+.left-blur-text div:nth-child(3){
+    margin-left: 268px;
+}
+.left-blur-text div:nth-child(2){
+    margin-left: 207px;
 }
 
 .middle-text {
@@ -135,12 +138,16 @@ ul {
 .navigation-menu ul {
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     padding: 0;
 }
 
 .navigation-menu {
-    width: 800px;
+    width: 900px;
+}
+
+.navigation-menu img {
+    width: 1950px;
+    height: 50px;
 }
 
 .header-logo img {
@@ -148,7 +155,7 @@ ul {
     height: 48px;
 }
 
-a {
+.navigation-menu a {
     text-decoration: none;
     color:white;
     display: flex;
@@ -167,6 +174,7 @@ a:hover {
     display: flex;
     justify-content: center;
     border: none;
+    margin-bottom: 100px;
 }
 
 iframe {
@@ -184,12 +192,12 @@ li {
 }
 
 /* Dropdown Button */
-.dropbtn {
-    color: white;;
+/* .dropbtn {
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
+  } */
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -229,4 +237,28 @@ li {
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: rgba(255, 166, 0, 0.705);
+}
+
+.head-section-partners {
+    font-weight: 100;
+    font-size: 34px;
+    color: black;
+    height: 50px;
+}
+
+.section-partners {
+    height: 300px;
+    background-color: white;
+}
+
+.container-section-logos {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    /* width: 1500px; */
+}
+
+.container-section-logos a img {
+    height: 200px;
+    width: 150px;
 }
