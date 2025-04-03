@@ -42,7 +42,7 @@ header {
 }
 
 .five-km-logo a {
-    background-image: url('/runPic.png');
+    background-image: url('runPic.png');
     background-repeat: no-repeat;
     text-decoration: none;
     height: 75px;
