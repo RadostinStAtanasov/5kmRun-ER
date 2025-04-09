@@ -360,7 +360,7 @@ footer a {
 .container-body {
   align-self: flex-end;
   color: white;
-  margin-bottom: 50px;
+  margin-left: 110px;
 }
 
 .container-mail-icons {
@@ -398,7 +398,6 @@ footer a {
 .footer-logo {
   display: flex;
   flex-direction: column;
-
 }
 
 .color-text {
@@ -411,16 +410,45 @@ footer a {
 }
 
 .footer-helper-menu-help {
+  gap: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .footer-helper-menu-info {
+  gap: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .footer-helper-menu-for-us {
+  gap: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.underline {
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+
+
+.underline {
+  font-size: 18px;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  /* left: 25%; */
+  border-bottom: 1px solid #949596;
 }
