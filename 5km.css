@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("Pexels\ Photo\ by\ Cody\ King.jpg");
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 1905px 1500px; 
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-style {
+    font-size: 24px;
+    color: aliceblue;
+}

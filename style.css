@@ -4,10 +4,10 @@ body {
       rgba(255, 255, 255, 0.5)
     ),
     url("Pexels\ Photo\ by\ Cody\ King.jpg");
-  background-size: cover;
+  background-size: 1905px 2300px;
   margin: 0;
   background-repeat: no-repeat;
-  height: 2300px;
+  /* height: 2300px; */
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -319,6 +319,7 @@ li {
   font-size: 34px;
   color: black;
   height: 50px;
+  /* background-color: #3d6996; */
 }
 
 .section-partners {
@@ -375,7 +376,7 @@ footer a {
 
 .container-mail-icons .icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 150px;
 }
 
