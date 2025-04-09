@@ -7,7 +7,7 @@ body {
   background-size: cover;
   margin: 0;
   background-repeat: no-repeat;
-  height: 2000px;
+  height: 2300px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -16,8 +16,6 @@ body {
 header {
   display: flex;
   align-content: center;
-  /* background-color: rgba(0, 0, 0, 0.651); */
-  
   margin-bottom: 30px;
   position: sticky;
   top: 0;
@@ -29,9 +27,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 1900px;
-    height: 250px;
-    /* margin-top: 50px; */
-    
+    height: 250px;   
 }
 
 .five-km-logo {
@@ -44,7 +40,7 @@ header {
 
 @keyframes pulse-animation {
   0% {
-    box-shadow: 0 0 0 0px rgba(19, 68, 160, 0.137);
+    box-shadow: 0 0 0 0px rgba(19, 68, 160, 0.3);
   }
   100% {
     box-shadow: 0 0 0 20px rgba(19, 68, 160, 0.021);
@@ -328,6 +324,7 @@ li {
 .section-partners {
   height: 300px;
   background-color: white;
+  margin-bottom: 100px;
 }
 
 .container-section-logos {
@@ -335,9 +332,95 @@ li {
   justify-content: space-around;
   height: 250px;
   /* width: 1500px; */
+
 }
 
 .container-section-logos a img {
   height: 200px;
   width: 150px;
+}
+
+footer {
+  background-image: url('wave.svg');
+  background-repeat: no-repeat;
+  background-size: 1950px 500px;
+  width: 1905px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-body {
+  align-self: flex-end;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.container-mail-icons {
+  font-size: 30px;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-mail-icons .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.container-mail-icons::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  /* left: 25%; */
+  border-bottom: 1px solid #949596;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.color-text {
+  color: white;
+}
+
+.footer-helper-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-helper-menu-help {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-helper-menu-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-helper-menu-for-us {
+  display: flex;
+  flex-direction: column;
 }
