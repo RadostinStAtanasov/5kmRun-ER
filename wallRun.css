@@ -1,0 +1,15 @@
+.wallrun-section {
+  
+    display: flex;
+    justify-content: center;
+}
+
+.wallrun-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 900px; */
+}
+
+#btn-enroll {
+    height: 50px;
+}
